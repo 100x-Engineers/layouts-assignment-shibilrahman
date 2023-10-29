@@ -374,6 +374,18 @@
   width: 2rem
 }
 
+.w-9 {
+  width: 2.25rem
+}
+
+.w-\[57px\] {
+  width: 57px
+}
+
+.w-\[73px\] {
+  width: 73px
+}
+
 .max-w-md {
   max-width: 28rem
 }
@@ -491,6 +503,14 @@
   gap: 234.606px
 }
 
+.gap-32 {
+  gap: 8rem
+}
+
+.gap-40 {
+  gap: 10rem
+}
+
 .self-stretch {
   align-self: stretch
 }
@@ -505,6 +525,10 @@
 
 .rounded-\[16px\] {
   border-radius: 16px
+}
+
+.rounded-\[200px\] {
+  border-radius: 200px
 }
 
 .border {
@@ -535,6 +559,11 @@
 .border-twitter-blue {
   --tw-border-opacity: 1;
   border-color: rgb(29 155 240 / var(--tw-border-opacity))
+}
+
+.border-b-neutral-700 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(64 64 64 / var(--tw-border-opacity))
 }
 
 .bg-neutral-1000 {
@@ -653,6 +682,11 @@
   padding-right: 20px
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem
+}
+
 .pb-3 {
   padding-bottom: 0.75rem
 }
@@ -703,6 +737,10 @@
 
 .pt-\[80px\] {
   padding-top: 80px
+}
+
+.pt-5 {
+  padding-top: 1.25rem
 }
 
 .text-center {
@@ -769,6 +807,10 @@
   line-height: 1.5
 }
 
+.leading-\[19\.36px\] {
+  line-height: 19.36px
+}
+
 .text-neutral-1000 {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity))
@@ -796,6 +838,11 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-neutral-400 {
+  --tw-text-opacity: 1;
+  color: rgb(162 162 162 / var(--tw-text-opacity))
 }
 
 .underline {

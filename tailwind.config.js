@@ -49,6 +49,7 @@ module.exports = {
       },
     },  
       fontSize:{
+        sm:"0.875rem",
         base:"1rem",
         "3xl":"1.625rem",
         "4xl":"1.938rem",
@@ -59,7 +60,19 @@ module.exports = {
         "4xl":"4rem",
         "5xl":"62px",
         "full":"9999px"
-      },  
+      },
+      boxShadow: {
+        '3xl': '0px 8px 16px 0px rgba(0, 0, 0, 0.25)',
+      },
+
+      backdropBlur: {
+        23: '23.668209075927734px',
+      },
+
+
+      borderWidth: {
+        '1': '1px',
+      }  
   },
   corePlugins: {
     preflight:false,
