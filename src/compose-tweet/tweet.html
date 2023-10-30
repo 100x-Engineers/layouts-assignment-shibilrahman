@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compose Tweet</title>
+    <link href="../../../dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-neutral-1000">
+    <!-- <div class="bg-neutral-1000 w-screen flex justify-center items-center h-screen  gap-3 flex-col md:backdrop-blur-md"> -->
+        <div class="bg-neutral-1000 w-full h-full flex-col justify-end flex-shrink-0 md:w-[390px] md:h-[726px] md:rounded-xl md:backdrop-blur-md">
+            <!-- notif -->
+        <div class="bg-neutral-1000 flex justify-between w-full h-[44px] pt-[14px] pb-[12px] pl-[19.9px] pr-[14.5px] items-center shrink-0">
+
+            <div class="w-[54px] h-[18px] shrink-0 flex items-center">
+                <p
+                    class="w-[54px] text-neutral-50 text-center font-px-regular text-[15px] leading-[18px] font-bold tracking-[-0.165px]">
+                    9:41</p>
+            </div>
+
+            <div class="w-[67px] h-[11.5px] shrink-0">
+                <img src="\public\images\bar.svg" alt="icons">
+            </div>
+
+        </div>
+        
+        <div class="bg-neutral-1000 w-full h-full px-4 py-0 flex-col justify-end gap-3 flex-shrink-0 md:w-[390px] md:h-[726px] md:rounded-xl">
+
+        <!-- logo and post button -->
+        <div class="flex w-full justify-between items-center">
+            <!-- x logo -->
+            <a href="/src/home-feed/home.html" class="no-underline block">
+                <div class="w-7 h-7">
+                <img src="/public/images/closeX.svg" alt="X logo">
+            </div>
+            </a>
+            <!-- post button -->
+            <a href="/src/home-feed/home.html" class="no-underline block">
+                    <button class="inline-flex py-2 px-6 justify-center items-center gap-2.5 rounded-4xl bg-twitter-blue hover:bg-twitter-blue-hover disabled:bg-twitter-blue-disabled disabled:opacity-50">
+                        <div class="text-neutral-50 text-center  font-px-regular text-sm leading-normal font-bold">
+                            Post
+                        </div>
+                    </button> 
+            </a>
+
+        </div>
+
+        <!-- what's happening -->
+        <div class="flex w-full py-2 px-0 items-center gap-3 ">
+            <img class="w-9 h-9 flex-shrink-0 rounded-[200px] bg-cover bg-no-repeat" src="/public/images/user-avatar-2.png" alt="User Avatar">           
+            
+            <div class="flex w-full items-center flex-row shrink-0 basis-0 self-stretch ">
+                <input class="text-neutral-50 flex items-center flex-shrink-0 font-px-regular text-base leading-normal font-normal border-transparent bg-transparent focus:outline-none focus:text-neutral-50 transition-colors duration-300 ease-in-out"
+                    type="text" placeholder="What's happening?!">
+            </div>
+        </div>
+
+        <!-- frame 27049 -->
+        <div class="flex fixed inset-x-0 bottom-0 h-auto w-full py-3 px-4 items-center border-t-1 border-solid border-neutral-800">
+            <div class="text-neutral-500  font-px-regular text-sm leading-normal font-normal">0/280</div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

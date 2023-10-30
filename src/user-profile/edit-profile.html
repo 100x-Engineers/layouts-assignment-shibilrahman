@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit profile</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-neutral-1000">
+    <!-- <div class="bg-neutral-1000 w-screen flex justify-center items-center h-screen  gap-3 flex-col md:backdrop-blur-md"> -->
+    <div class="bg-neutral-1000 w-full h-full flex-col justify-end flex-shrink-0 md:w-[390px] md:h-[868px] md:rounded-xl md:backdrop-blur-md">
+        <!-- notif -->
+    <div class="bg-neutral-1000 flex justify-between w-full h-[44px] pl-2 items-center shrink-0">
+
+        <div class="w-[54px] h-[18px] shrink-0 flex items-center">
+            <p
+                class="w-[54px] text-neutral-50 text-center font-px-regular text-[15px] leading-[18px] font-bold tracking-[-0.165px]">
+                9:41</p>
+        </div>
+
+        <div class="w-[67px] h-[11.5px] shrink-0">
+            <img src="\public\images\bar.svg" alt="icons">
+        </div>
+
+    </div>
+    <!-- mid section -->
+            <!-- cover image -->
+            <!-- <section class="w-[390px] h-[150px]">
+                <img src="/public/images/bg-img.png" alt="">
+            </section>
+
+            profile image -->
+            <!-- <section>
+                <img src="/public/images/user-avatar.svg" alt="user avatar"
+                    class="w-[68px] h-[68px] shrink-0 rounded-[200px] border-[4px] border-solid border-neutral-1000 absolute top-[160px] left-[2px]">
+            </section> --> 
+        <!-- main frame 27192 -->
+        <article class="flex w-full py-0 px-4 flex-col items-start gap-3">
+
+            <!-- edit profile frame 27049 -->
+            <section class="flex py-3 px-0 justify-between items-center self-stretch">
+
+                <!-- edit profile and back arrow 27161-->
+                <section class="flex items-center gap-5">
+                    <!-- back arrow -->
+                    <a href="/src/user-profile/profile.html">
+                        <img src="/public/images/back-arrow.svg" alt="Back arrow" class="w-6 h-6">
+                    </a>
+
+                    <!-- edit profile -->
+                    <div class="text-neutral-50 font-px-regular text-base leading-none font-bold">Edit profile</div>
+                </section>
+
+                <!-- save button -->
+                <a href="/src/index.html" class="no-underline">
+                    <button class="flex py-2 px-5 justify-center items-center gap-2.5 rounded-xs bg-neutral-50 shadow-3xl backdrop-blur-23 hover:bg-neutral-200 disabled:bg-neutral-200 disabled:opacity-50">
+                        <div class="font-px-regular text-sm font-bold ">
+                            Save
+                        </div>
+                    </button>
+                </a>
+
+            </section>
+
+            <!-- frame 27178 -->
+            <section class="flex flex-col items-start gap-3 self-stretch">
+                <!-- group 27161 -->
+                <section class="w-[358px] h-[212px]">
+                    <img src="/public/images/edit-profile-bg.png" alt="cover photo" class="w-[358px] h-[212px] shrink-0">
+                    <img src="/public/images/user-avatar-camera.png" alt="user avatar" class="inline-flex justify-center items-center rounded-[200px] border-[4px] border-solid border-neutral-1000 absolute top-[255px] left-[22px]">
+                </section>
+
+                <!-- frame 27184 -->
+                <section class="flex items-start gap-[8px] absolute left-[160px] top-[210px]">
+                    <!-- frame 27166 -->
+                    <div class="flex p-0.5 justify-center items-center gap-2.5 rounded-[1000px] bg-img-bg">
+                        <img src="/public/images/camera.svg" alt="change cover" class="w-6 h-6">
+                    </div>
+
+                    <!-- frame 27167 -->
+                    <div class="flex p-0.5 justify-center items-center gap-2.5 rounded-[1000px] bg-img-bg">
+                        <img src="/public/images/cross.svg" alt="cancel" class="w-6 h-6">
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- frame 27190 -->
+            <section class="flex flex-col items-center gap-5 self-stretch mt-[20px]">
+                <!-- name label -->
+                <section class="relative flex w-full justify-between items-center">
+                    <input type="text" placeholder="Name" id="Name" class="text-neutral-50 font-px-regular text-base font-normal bg-transparent py-4 px-3 max-w-[360px] h-6 md:w-[360px] rounded-4 border-1 border-solid border-neutral-500 peer w-full leading-normal placeholder:text-neutral-500 focus:outline-none focus:border-twitter-blue focus:ring-twitter-blue">
+             
+                    <div class="bg-black text-neutral-500 text-[12px] leading-normal font-medium absolute left-4 -top-2 px-1 peer-focus:text-twitter-blue">
+                     Name
+                    </div>
+             
+                    <img src="/public/images/tick-icon.svg" alt="correct-icon"
+                    class="w-[24px] h-[24px] absolute hidden top-1/2 right-3 -translate-y-1/2 peer-focus:block">
+                 </section>
+
+                 <!-- bio label -->
+                 <section class="relative flex w-full justify-between items-center">
+                    <input type="text" placeholder="Bio" id="bio" class="text-neutral-50 font-px-regular text-base font-normal bg-transparent py-4 px-3 rounded-4 border-1 border-solid border-neutral-500 peer max-w-[360px] w-full h-6 md:w-[360px] leading-normal placeholder:text-neutral-500 focus:outline-none focus:border-twitter-blue focus:ring-twitter-blue">
+             
+                    <div class="bg-black text-neutral-500 text-[12px] leading-normal font-medium absolute left-4 -top-2 px-1 peer-focus:text-twitter-blue">
+                     Bio
+                    </div>
+             
+                    <img src="/public/images/tick-icon.svg" alt="correct-icon"
+                    class="w-[24px] h-[24px] absolute hidden top-1/2 right-3 -translate-y-1/2 peer-focus:block">
+                 </section>
+
+                 <!-- location label -->
+                 <section class="relative flex w-full justify-between items-center">
+                    <input type="text" placeholder="Location" id="location"  class="text-neutral-50 font-px-regular text-base font-normal bg-transparent py-4 px-3 rounded-4 border-1 border-solid border-neutral-500 peer max-w-[360px] w-full h-6 md:w-[360px] leading-normal placeholder:text-neutral-500 focus:outline-none focus:border-twitter-blue focus:ring-twitter-blue">
+             
+                    <div class="bg-black text-neutral-500 text-[12px] leading-normal font-medium absolute left-4 -top-2 px-1 peer-focus:text-twitter-blue">
+                        Location
+                    </div>
+             
+                    <img src="/public/images/tick-icon.svg" alt="correct-icon"
+                    class="w-[24px] h-[24px] absolute hidden top-1/2 right-3 -translate-y-1/2 peer-focus:block">
+                 </section>
+
+                 <!-- website -->
+                 <section class="relative flex w-full justify-between items-center">
+                    <input type="text" placeholder="Website" id="website"  class="text-neutral-50 font-px-regular text-base font-normal bg-transparent py-4 px-3 rounded-4 border-1 border-solid border-neutral-500 peer max-w-[360px] w-full h-6 md:w-[360px] leading-normal placeholder:text-neutral-500 focus:outline-none focus:border-twitter-blue focus:ring-twitter-blue">
+             
+                    <div class="bg-black text-neutral-500 text-[12px] leading-normal font-medium absolute left-4 -top-2 px-1 peer-focus:text-twitter-blue">
+                        Website
+                    </div>
+             
+                    <img src="/public/images/tick-icon.svg" alt="correct-icon"
+                    class="w-[24px] h-[24px] absolute hidden top-1/2 right-3 -translate-y-1/2 peer-focus:block">
+                 </section>
+
+            </section>
+
+        </article>
+    </div>
+</body>
+</html>
+            

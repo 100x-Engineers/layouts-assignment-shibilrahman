@@ -27,6 +27,7 @@ module.exports = {
         "twitter-blue-hover":"#1871ca",
         "stroke":"rgba(29, 155, 240, 0.24)",
         "secondary":"rgba(255, 255, 255, 0.60)",
+        "img-bg":"rgba(0, 0, 0, 0.60)",
       },
       spacing:{
         3.25:"0.818rem",
@@ -59,7 +60,10 @@ module.exports = {
         "4":"4px",
         "4xl":"4rem",
         "5xl":"62px",
-        "full":"9999px"
+        "full":"9999px",
+        'xl': "65px",
+        'xs': "30px",
+        '12.5': "12.5rem",
       },
       boxShadow: {
         '3xl': '0px 8px 16px 0px rgba(0, 0, 0, 0.25)',
@@ -72,6 +76,7 @@ module.exports = {
 
       borderWidth: {
         '1': '1px',
+        '0': '0px',
       }  
   },
   corePlugins: {
